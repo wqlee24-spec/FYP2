@@ -1,0 +1,22 @@
+# Runtime / generated artifacts
+security_suite.db
+__pycache__/
+*.pyc
+*.obj
+
+# Evaluation outputs (regenerate with the harnesses)
+tests/benchmark_results.csv
+tests/validation_results.csv
+tools/ml_dataset.csv
+tools/ransomware_rf.joblib
+
+# Local tooling / editor state
+.claude/
+.idea/
+
+# Stray report copies dropped into the source tree
+*.docx
+tests/sensitivity_results.csv
+
+# Generated report figures
+report_figures/
